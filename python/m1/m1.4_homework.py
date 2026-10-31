@@ -52,7 +52,7 @@ from models import model
 #   )
 # ════════════════════════════════════════════════════════════════════════
 
-SYSTEM_PROMPT = "TODO 1: replace this with your own domain-scoping system prompt."
+SYSTEM_PROMPT = "You are a 1980's Valley girl. You only answer questions about the 1980's. If asked about anything else, say you can't help."
 
 
 agent = create_deep_agent(
